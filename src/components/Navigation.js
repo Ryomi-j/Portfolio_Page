@@ -3,15 +3,15 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import "bootstrap/dist/css/bootstrap.min.css";
-import './Nav.modules.css'
+import styles from './Nav.module.css'
 
 function Navigation() {
   return (
-    <Navbar expand="lg" id="frame">
+    <Navbar expand="lg" className={styles.frame} >
       <Container id="nav-box">
-        <Navbar.Brand href="#home" id="title">Portfolio</Navbar.Brand>
+        <Navbar.Brand href="#home" className={styles.title}>Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className="items">
+        <Navbar.Collapse id="basic-navbar-nav" className={styles.items}>
           <Nav>
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">Introcution</Nav.Link>

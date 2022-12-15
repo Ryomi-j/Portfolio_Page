@@ -1,10 +1,10 @@
-#frame {
+.frame {
     display: flex;
     flex-wrap: wrap;
     font-weight: bolder;
 }
 
-#title {
+.title {
     font-size: 50px;
 }
 
