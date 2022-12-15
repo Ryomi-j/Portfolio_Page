@@ -8,12 +8,14 @@
   grid-template-columns: repeat(2, 1fr);
   justify-content: space-around;
   align-items: center;
+  gap: 20px;
 }
 
 .letter {
   font-size: 30px;
   font-weight: bold;
-  padding-left: 2em;
+  padding-left: 3em;
+  line-height: 50px;
 }
 
 .imgs {
@@ -30,7 +32,7 @@
 }
 
 .right_col {
-    margin-right: 15px;
+    margin-right: 30px;
 }
 
 .small {

@@ -20,8 +20,8 @@ function Home() {
         <div className={styles.letter}>
           <div>Hello, Visitors!</div>
           <div>Welcome to my page😊</div>
-          <div>This page includes some products I made</div>
-          <div>when I study to be a front-end engineer!</div>
+          <div>This page includes some products</div>
+          <div>I practiced to be a front-end engineer!</div>
           <div> Just look around🙋‍♀️</div>
         </div>
         <div className={styles.imgs}>

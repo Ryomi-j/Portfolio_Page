@@ -9,12 +9,12 @@ function Navigation() {
   return (
     <Navbar expand="lg" className={styles.frame} >
       <Container id="nav-box">
-        <Navbar.Brand href="#home" className={styles.title}>Portfolio</Navbar.Brand>
+        <Nav.Link className={styles.title}>Portfolio</Nav.Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className={styles.items}>
           <Nav>
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Introcution</Nav.Link>
+            <Nav.Link to='/'>Home</Nav.Link>
+            <Nav.Link href="#Introduction">Introcution</Nav.Link>
             <NavDropdown title="History" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
