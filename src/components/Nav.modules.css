@@ -1,0 +1,14 @@
+#frame {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bolder;
+}
+
+#title {
+    font-size: 50px;
+}
+
+.items {
+    justify-content: right;
+    font-size: 20px;
+}
