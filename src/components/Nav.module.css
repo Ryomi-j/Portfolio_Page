@@ -1,23 +1,23 @@
 .frame {
-    display: flex;
-    flex-wrap: wrap;
-    font-weight: bolder;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bolder;
 }
 
 .title {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .items {
-    justify-content: right;
-    font-size: 20px;
+  justify-content: right;
+  font-size: 20px;
 }
 
 .a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
-.a:hover{
-    color: inherit;
+.a:hover {
+  color: inherit;
 }

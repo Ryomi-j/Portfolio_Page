@@ -1,8 +1,11 @@
 import React from "react";
+import styles from './History.module.css'
 
 function History() {
     return (
-        <div>Hello</div>
+        <div className={styles.home}>
+
+        </div>
     )
 }
 

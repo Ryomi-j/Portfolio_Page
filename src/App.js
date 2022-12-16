@@ -8,12 +8,14 @@ function App() {
   return (
     <>
       <BrowserRouter>
+        <div style={{backgroundColor:"rgb(254, 247, 237)"}}>
         <Navigation />
         <Routes>
           <Route path={"/"} element={<Home />}></Route>
           <Route path="/Introduction" element={<Introduction />}></Route>
           <Route path="/History" element={<History />}></Route>
         </Routes>
+        </div>
       </BrowserRouter>
     </>
   );

@@ -11,6 +11,7 @@ function Home() {
         objectFit: "contain",
         display: "block",
         marginLeft: "5px",
+        borderRadius: "20px",
       }}
       src="img/projects/calculator.jpg"
       alt="calculator"

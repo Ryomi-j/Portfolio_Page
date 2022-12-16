@@ -5,7 +5,7 @@ import { FcBusinesswoman, FcIphone, FcLink } from "react-icons/fc";
 
 function Introduction() {
   return (
-    <>
+    <div className={styles.home}>
       <div className={styles.title}>Introduction</div>
       <div className={styles.content}>
         <div className={styles.img}>
@@ -65,7 +65,7 @@ function Introduction() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
