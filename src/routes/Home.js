@@ -12,7 +12,7 @@ function Home() {
         display: "block",
         marginLeft: "5px",
       }}
-      src="img/calculator.jpg"
+      src="img/projects/calculator.jpg"
       alt="calculator"
     />,
     <img
@@ -25,7 +25,7 @@ function Home() {
         marginLeft: "3px",
         borderRadius: "15px",
       }}
-      src="img/challanges.jpg"
+      src="img/projects/challanges.jpg"
       alt="challanges"
     />,
     <img
@@ -37,7 +37,7 @@ function Home() {
         display: "block",
         borderRadius: "10px",
       }}
-      src="img/movie.jpg"
+      src="img/projects/movie.jpg"
       alt="movie"
     />,
     <img
@@ -49,7 +49,7 @@ function Home() {
         display: "block",
         borderRadius: "5px",
       }}
-      src="img/tic tac toe.jpg"
+      src="img/projects/tic tac toe.jpg"
       alt="tic tac to"
     />,
     <img
@@ -62,7 +62,7 @@ function Home() {
         margin:'0 auto',
         borderRadius: "5px",
       }}
-      src="img/travel.jpg"
+      src="img/projects/travel.jpg"
       alt="travel"
     />,
     <img
@@ -75,7 +75,7 @@ function Home() {
         marginLeft: "4px",
         borderRadius: "15px",
       }}
-      src="img/web-food.jpg"
+      src="img/projects/web-food.jpg"
       alt="web_food"
     />,
   ];
