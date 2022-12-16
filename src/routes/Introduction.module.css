@@ -43,7 +43,15 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: pink;
+}
+
 .logos {
   width: 70px;
   margin-right: 10px;
+}
+
+.logos:hover {
+  width: 120px;
 }
