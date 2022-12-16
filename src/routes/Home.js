@@ -3,13 +3,81 @@ import styles from "./Home.module.css";
 
 function Home() {
   const imgs = [
-    { id: 1, title: "calculator", img: <img src="calculator.jpg" /> },
-    { id: 2, title: "challenges", img: <img src="challgenge.jpg" /> },
-    { id: 3, title: "contact_us", img: <img src="contact-us.jpg" /> },
-    { id: 4, title: "movie", img: <img src="movie.jpg" /> },
-    { id: 5, title: "tic_tac_toe", img: <img src="tic_tac_toe.jpg" /> },
-    { id: 6, title: "travel", img: <img src="travel.jpg" /> },
-    { id: 7, title: "web_food", img: <img src="web_food.jpg" /> },
+    <img
+      id="0"
+      style={{
+        width: "250px",
+        height: "300px",
+        objectFit: "contain",
+        display: "block",
+        marginLeft: "5px",
+      }}
+      src="img/calculator.jpg"
+      alt="calculator"
+    />,
+    <img
+      id="1"
+      style={{
+        width: "250px",
+        height: "170px",
+        objectFit: "contain",
+        display: "block",
+        marginLeft: "3px",
+        borderRadius: "15px",
+      }}
+      src="img/challanges.jpg"
+      alt="challanges"
+    />,
+    <img
+      id="2"
+      style={{
+        width: "200px",
+        height: "150px",
+        objectFit: "contain",
+        display: "block",
+        borderRadius: "10px",
+      }}
+      src="img/movie.jpg"
+      alt="movie"
+    />,
+    <img
+      id="3"
+      style={{
+        width: "250px",
+        height: "170px",
+        objectFit: "contain",
+        display: "block",
+        borderRadius: "5px",
+      }}
+      src="img/tic tac toe.jpg"
+      alt="tic tac to"
+    />,
+    <img
+      id="4"
+      style={{
+        width: "380px",
+        height: "300px",
+        objectFit: "contain",
+        display: "block",
+        margin:'0 auto',
+        borderRadius: "5px",
+      }}
+      src="img/travel.jpg"
+      alt="travel"
+    />,
+    <img
+      id="5"
+      style={{
+        width: "200px",
+        height: "150px",
+        objectFit: "contain",
+        display: "block",
+        marginLeft: "4px",
+        borderRadius: "15px",
+      }}
+      src="img/web-food.jpg"
+      alt="web_food"
+    />,
   ];
 
   return (
@@ -24,17 +92,14 @@ function Home() {
         </div>
         <div className={styles.imgs}>
           <div className={styles.left_col}>
-            <div className={styles.small}>1</div>
-            <div className={styles.largest}>2</div>
-            <div className={styles.small}>3</div>
+            <div className={styles.small}>{imgs[2]}</div>
+            <div className={styles.largest}>{imgs[4]}</div>
+            <div className={styles.small}>{imgs[5]}</div>
           </div>
           <div className={styles.right_col}>
-            <div className={styles.medium}>4</div>
-            <div className={styles.large}>5</div>
-            <div className={styles.medium}>
-              <img src="web_food.jpg" />
-            </div>
-            {/* <img src={logo} className="App-logo" alt="logo" /> */}
+            <div className={styles.medium}>{imgs[3]}</div>
+            <div className={styles.large}>{imgs[0]}</div>
+            <div className={styles.medium}>{imgs[1]}</div>
           </div>
         </div>
       </div>

@@ -36,21 +36,18 @@
 }
 
 .small {
-  border: solid black 1px;
   width: 200px;
   height: 150px;
   border-radius: 5px;
 }
 
 .medium {
-  border: solid black 1px;
   width: 250px;
   height: 170px;
   border-radius: 5px;
 }
 
 .large {
-  border: solid black 1px;
   width: 250px;
   height: 300px;
   margin: 10px 0;
@@ -58,8 +55,7 @@
 }
 
 .largest {
-  border: solid black 1px;
-  width: 400px;
+  width: 380px;
   height: 300px;
   margin: 10px 0;
   border-radius: 5px;
