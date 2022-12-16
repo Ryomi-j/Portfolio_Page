@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function Navigation() {
   return (
-    <Navbar expand="lg" className={styles.frame}>
+    <Navbar expand="lg" className={styles.frame} >
       <Container id="nav-box">
         <Nav.Link className={styles.title}>
           <Link to="/" className={styles.a}>

@@ -1,4 +1,16 @@
 .home {
-    height: 100vh;
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(72, 72, 72);
+}
+
+.contents {
+  margin: 10px 150px;
+  padding-top: 4em;
+  border: 1px solid black;
+}
