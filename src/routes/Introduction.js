@@ -19,7 +19,7 @@ function Introduction() {
                 <th rowSpan={2} className={styles.icon}>
                   <FcBusinesswoman size="50" />
                 </th>
-                <th><b>이름</b></th>
+                <th>이름</th>
                 <th rowSpan={2} className={styles.icon}>
                   <FcIphone size="50"  />
                 </th>
@@ -30,9 +30,9 @@ function Introduction() {
                 <th><b>이메일</b></th>
               </tr>
               <tr>
-                <th>김은정</th>
-                <th>010.4307.7246</th>
-                <th>ryomi.j78@gmail.com</th>
+                <th className={styles.value}>김은정</th>
+                <th className={styles.value}>010.4307.7246</th>
+                <th className={styles.value}>ryomi.j78@gmail.com</th>
               </tr>
               <tr>
                 <th></th>
