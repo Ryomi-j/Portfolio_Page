@@ -1,0 +1,26 @@
+.title {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 10px;
+}
+
+.img {
+  margin: 0 0 0 auto;
+}
+
+.detail {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+}
+
+.info {
+}
+
+.contact {
+}

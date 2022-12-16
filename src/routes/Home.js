@@ -1,5 +1,4 @@
 import React from "react";
-import Navigation from "../components/Navigation";
 import styles from "./Home.module.css";
 
 function Home() {
@@ -15,7 +14,6 @@ function Home() {
 
   return (
     <div className={styles.home}>
-      <Navigation />
       <div className={styles.cols}>
         <div className={styles.letter}>
           <div>Hello, Visitors!</div>
@@ -33,7 +31,10 @@ function Home() {
           <div className={styles.right_col}>
             <div className={styles.medium}>4</div>
             <div className={styles.large}>5</div>
-            <div className={styles.medium}>6</div>
+            <div className={styles.medium}>
+              <img src="web_food.jpg" />
+            </div>
+            {/* <img src={logo} className="App-logo" alt="logo" /> */}
           </div>
         </div>
       </div>
