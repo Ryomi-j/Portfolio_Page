@@ -1,5 +1,7 @@
 .home {
   box-sizing: border-box;
+  /* width: 1000px; */
+  margin: 0;
 }
 
 .title {
@@ -10,7 +12,7 @@
 }
 
 .contents {
-  margin: 10px 150px;
-  padding-top: 4em;
+  /* margin: 10px 150px; */
+  padding-top: 3em;
   border: 1px solid black;
 }
