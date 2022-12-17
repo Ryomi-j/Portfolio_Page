@@ -1,0 +1,39 @@
+.contentBox {
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  width: 1000px;
+}
+
+img {
+  width: 500px;
+  border-radius: 10px;
+  margin: 10px 20px 20px 0;
+}
+
+.detail {
+  margin: auto 10px auto 0;
+}
+
+.itemTitle {
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(47, 88, 177);
+}
+
+.highlight {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(78, 123, 162);
+}
+
+.logos {
+  width: 70px;
+  margin-right: 10px;
+  transition: all 0.2s linear;
+  border-radius: 5px;
+}
+
+.logos:hover {
+  transform: scale(1.1);
+}
