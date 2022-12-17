@@ -2,6 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   font-weight: bolder;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 .title {

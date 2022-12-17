@@ -9,12 +9,13 @@
   justify-content: space-around;
   align-items: center;
   gap: 20px;
+  margin-right: 50px;
 }
 
 .letter {
   font-size: 30px;
   font-weight: bold;
-  padding-left: 3em;
+  padding-left: 4em;
   line-height: 50px;
 }
 
