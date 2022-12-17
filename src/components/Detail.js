@@ -12,14 +12,18 @@ function Detail({ content }) {
           <div className={styles.highlight}>Detail :</div>
           <div>{content.description}</div>
           <br />
-          <div className={styles.highlight}>
-            <a href={content.url}> 페이지 바로가기</a>
+          <div>
+            <button>
+              <a target='_blank' href={content.url}> 페이지 바로가기</a>
+            </button>
+            <button>
+              <a target='_blank' href={content.blog}>블로그 게시글 보기</a>
+            </button>
           </div>
-          <div className={styles.highlight}>
-            <a href={content.blog}>블로그 게시글 보기</a></div>
+          <br />
           <div className={styles.highlight}>Skills : </div>
           <span>{content.skills}</span>
-          
+          <br />
         </div>
       </div>
     </>
