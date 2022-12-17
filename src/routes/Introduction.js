@@ -9,7 +9,7 @@ function Introduction() {
       <div className={styles.title}>Introduction</div>
       <div className={styles.content}>
         <div className={styles.img}>
-          <img src="img/profile.png" alt="photo" className={styles.photo} />
+          <img src="https://Ryomi-j.github.io/Portfolio_Page/img/profile.png" alt="photo" className={styles.photo} />
         </div>
         <div className={styles.detail}>
           <div className={styles.info}>
@@ -53,15 +53,15 @@ function Introduction() {
           <div className={styles.contact}></div>
           <div className={styles.headline}>Skills</div>
           <div>
-            <img className={styles.logos} src="img/skills/html.png" alt="html logo" />
-            <img className={styles.logos} src="img/skills/css.png" alt="css logo" />
-            <img className={styles.logos} src="img/skills/js.png" alt="Java Script logo" />
-            <img className={styles.logos} src="img/skills/react.png" alt="react logo" />
-            <img className={styles.logos} src="img/skills/redux.png" alt="redux logo" />
-            <img className={styles.logos} src="img/skills/git.png" alt="git logo" />
-            <img className={styles.logos} src="img/skills/github.png" alt="github logo" />
-            <img className={styles.logos} src="img/skills/Node.js_logo.png" alt="Node.js logo" />
-            <img className={styles.logos} src="img/skills/MySQL.jpg" alt="MySQL logo" />
+            <img className={styles.logos} src="https://Ryomi-j.github.io/Portfolio_Page/img/skills/html.png" alt="html logo" />
+            <img className={styles.logos} src="https://Ryomi-j.github.io/Portfolio_Page/img/skills/css.png" alt="css logo" />
+            <img className={styles.logos} src="https://Ryomi-j.github.io/Portfolio_Page/img/skills/js.png" alt="Java Script logo" />
+            <img className={styles.logos} src="https://Ryomi-j.github.io/Portfolio_Page/img/skills/react.png" alt="react logo" />
+            <img className={styles.logos} src="https://Ryomi-j.github.io/Portfolio_Page/img/skills/redux.png" alt="redux logo" />
+            <img className={styles.logos} src="https://Ryomi-j.github.io/Portfolio_Page/img/skills/git.png" alt="git logo" />
+            <img className={styles.logos} src="https://Ryomi-j.github.io/Portfolio_Page/img/skills/github.png" alt="github logo" />
+            <img className={styles.logos} src="https://Ryomi-j.github.io/Portfolio_Page/img/skills/Node.js_logo.png" alt="Node.js logo" />
+            <img className={styles.logos} src="https://Ryomi-j.github.io/Portfolio_Page/img/skills/MySQL.jpg" alt="MySQL logo" />
           </div>
         </div>
       </div>

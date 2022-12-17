@@ -1,21 +1,21 @@
-import React from "react";
+import React, {Link} from "react";
 import styles from "./Home.module.css";
 
 function Home() {
   const imgs = [
-    <img
-      id="0"
-      style={{
-        width: "250px",
-        height: "300px",
-        objectFit: "contain",
-        display: "block",
-        marginLeft: "5px",
-        borderRadius: "20px",
-      }}
-      src="img/home-imgs/calculator.jpg"
-      alt="calculator"
-    />,
+      <img
+        id="0"
+        style={{
+          width: "250px",
+          height: "300px",
+          objectFit: "contain",
+          display: "block",
+          marginLeft: "5px",
+          borderRadius: "20px",
+        }}
+        src="https://Ryomi-j.github.io/Portfolio_Page/img/home-imgs/calculator.jpg"
+        alt="calculator"
+      />,
     <img
       id="1"
       style={{
@@ -26,7 +26,7 @@ function Home() {
         marginLeft: "3px",
         borderRadius: "15px",
       }}
-      src="img/home-imgs/challanges.jpg"
+      src="https://Ryomi-j.github.io/Portfolio_Page/img/home-imgs/challanges.jpg"
       alt="challanges"
     />,
     <img
@@ -38,7 +38,7 @@ function Home() {
         display: "block",
         borderRadius: "10px",
       }}
-      src="img/home-imgs/movie.jpg"
+      src="https://Ryomi-j.github.io/Portfolio_Page/img/home-imgs/movie.jpg"
       alt="movie"
     />,
     <img
@@ -50,7 +50,7 @@ function Home() {
         display: "block",
         borderRadius: "5px",
       }}
-      src="img/home-imgs/tic tac toe.jpg"
+      src="https://Ryomi-j.github.io/Portfolio_Page/img/home-imgs/tic tac toe.jpg"
       alt="tic tac to"
     />,
     <img
@@ -63,7 +63,7 @@ function Home() {
         // margin: "20px auto",
         borderRadius: "5px",
       }}
-      src="img/home-imgs/travel.jpg"
+      src="https://Ryomi-j.github.io/Portfolio_Page/img/home-imgs/travel.jpg"
       alt="travel"
     />,
     <img
@@ -76,7 +76,7 @@ function Home() {
         marginLeft: "5px",
         borderRadius: "15px",
       }}
-      src="img/home-imgs/web-food.jpg"
+      src="https://Ryomi-j.github.io/Portfolio_Page/img/home-imgs/web-food.jpg"
       alt="web_food"
     />,
   ];
