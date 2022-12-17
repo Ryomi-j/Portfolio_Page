@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&family=Unbounded:wght@500&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Dongle&family=Handlee&family=Kanit:wght@600&family=Unbounded:wght@700&display=swap");
 .App {
-    font-family: 'Unbounded', 'Kanit', sans-serif;
+  font-family: "Dongle", "Handlee", "Kanit", "Unbounded", sans-serif;
 }

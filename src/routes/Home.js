@@ -88,7 +88,7 @@ function Home() {
           <div>Hello, Visitors!</div>
           <div>Welcome to my page😊</div>
           <div>This page includes some products</div>
-          <div>I practiced to be a front-end engineer!</div>
+          <div>I'v made to be a front-end engineer!</div>
           <div> Just look around🙋‍♀️</div>
         </div>
         <div className={styles.imgs}>

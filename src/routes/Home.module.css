@@ -13,10 +13,11 @@
 }
 
 .letter {
-  font-size: 30px;
+  font-family: 'Handlee';
+  font-size: 40px;
   font-weight: bold;
-  padding-left: 4em;
-  line-height: 50px;
+ text-align: center;
+  line-height: 70px;
 }
 
 .imgs {

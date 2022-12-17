@@ -13,16 +13,20 @@ img {
 
 .detail {
   margin: auto 10px auto 0;
+  font-family: "Dongle";
+  font-size: 30px;
 }
 
 .itemTitle {
   font-weight: bold;
+  font-family: "Kanit";
   font-size: 30px;
   color: rgb(47, 88, 177);
 }
 
 .highlight {
-  font-size: 20px;
+  font-family: "Kanit";
+  font-size: 25px;
   font-weight: bold;
   color: rgb(78, 123, 162);
 }
@@ -39,16 +43,28 @@ img {
 }
 
 button {
-    margin: 5px ;
-    border-radius: 10px;
-    border: 1px solid rgb(182, 207, 217);
-    color: rgb(48, 81, 110);
-    font-weight: bolder;
-    font-size: 18px;
-    background-color: rgb(207, 235, 245);
-    padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  color: rgb(48, 81, 110);
+  font-weight: bolder;
+  font-size: 18px;
+  background-color: rgb(207, 235, 245);
+  padding: 5px 5px 0 5px;
+}
+
+button:hover {
+  background-color: pink;
+  border: pink;
+}
+
+a {
+  font-family: "Dongle";
+  font-size: 20px;
+  font-weight: bold;
 }
 
 a:hover {
-    color: rgb(47, 112, 226);
+  color: rgb(47, 74, 226);
+  
 }

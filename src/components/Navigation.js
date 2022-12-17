@@ -9,8 +9,8 @@ function Navigation() {
   return (
     <Navbar expand="lg" className={styles.frame} >
       <Container id="nav-box">
-        <Nav.Link className={styles.title}>
-          <Link to="/" className={styles.a}>
+        <Nav.Link>
+          <Link to="/" className={styles.title}>
             Portfolio
           </Link>
         </Nav.Link>
