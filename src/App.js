@@ -13,6 +13,7 @@ function App() {
         <Navigation />
         <Routes>
           <Route path={"/"} element={<Home />}></Route>
+          <Route path={"/Portfolio_Page"} element={<Home />}></Route>
           <Route path="/Introduction" element={<Introduction />}></Route>
           <Route path="/History" element={<History />}></Route>
         </Routes>
