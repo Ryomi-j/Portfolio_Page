@@ -50,9 +50,8 @@ function Introduction() {
               </tr>
             </table>
           </div>
-          <div className={styles.contact}></div>
           <div className={styles.headline}>Skills</div>
-          <div>
+          <div className={styles.skillIcon}>
             <img className={styles.logos} src="https://Ryomi-j.github.io/Portfolio_Page/img/skills/html.png" alt="html logo" />
             <img className={styles.logos} src="https://Ryomi-j.github.io/Portfolio_Page/img/skills/css.png" alt="css logo" />
             <img className={styles.logos} src="https://Ryomi-j.github.io/Portfolio_Page/img/skills/js.png" alt="Java Script logo" />

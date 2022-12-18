@@ -15,7 +15,6 @@ function Detail({ content }) {
           <div>
             <button>
               <a target="_blank" href={content.url}>
-                {" "}
                 페이지 바로가기
               </a>
             </button>

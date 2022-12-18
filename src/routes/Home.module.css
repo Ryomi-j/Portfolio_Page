@@ -63,3 +63,35 @@
   margin: 10px 0;
   border-radius: 5px;
 }
+
+@media (max-width: 1200px) {
+  
+  
+  .home {
+    height: max-content;
+  }
+
+  .cols {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .letter {
+    font-size: 1.5rem;
+  }
+
+  .right_col {
+    margin: 0 auto;
+  }
+
+  .imgs {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+  }
+
+  .small, .medium, .large, .largest {
+    margin: 10px auto;
+  }
+}

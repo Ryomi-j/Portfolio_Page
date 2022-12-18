@@ -31,3 +31,10 @@
 .a:hover {
   color: inherit;
 }
+
+@media (max-width: 1200px) {
+  .frame {
+    width:100vw;
+  }
+
+}

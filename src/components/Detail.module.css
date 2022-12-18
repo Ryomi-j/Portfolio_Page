@@ -68,3 +68,18 @@ a:hover {
   color: rgb(47, 74, 226);
   
 }
+
+@media (max-width: 1200px) {
+  .contentBox {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    width: 450px;
+    border-radius: 10px;
+  }
+}
