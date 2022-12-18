@@ -5,6 +5,13 @@
   width: 1000px;
 }
 
+.highlight {
+  font-family: "Kanit";
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(78, 123, 162);
+}
+
 img {
   width: 500px;
   border-radius: 10px;
@@ -22,13 +29,6 @@ img {
   font-family: "Kanit";
   font-size: 30px;
   color: rgb(47, 88, 177);
-}
-
-.highlight {
-  font-family: "Kanit";
-  font-size: 25px;
-  font-weight: bold;
-  color: rgb(78, 123, 162);
 }
 
 .logos {
@@ -73,7 +73,7 @@ a:hover {
   .contentBox {
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    width: 500px;
     align-items: center;
     justify-content: center;
   }
@@ -81,5 +81,9 @@ a:hover {
   img {
     width: 450px;
     border-radius: 10px;
+  }
+
+  .detail {
+    padding: 10px;
   }
 }

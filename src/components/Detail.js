@@ -5,10 +5,11 @@ function Detail({ content }) {
   return (
     <>
       <div className={styles.contentBox}>
-        <div className={styles.img}>{content.img}</div>
-        <div className={styles.detail}>
+        <div>
           <div className={styles.itemTitle}>{content.title}</div>
-          <br />
+          <div className={styles.img}>{content.img}</div>
+        </div>
+        <div className={styles.detail}>
           <div className={styles.highlight}>Detail :</div>
           <div>{content.description}</div>
           <br />
