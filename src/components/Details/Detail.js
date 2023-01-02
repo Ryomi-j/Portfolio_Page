@@ -1,26 +1,26 @@
 import React from "react";
-import styles from "./Detail.module.css";
+import styles from "./styles.module.css";
 
 function Detail({ content }) {
   return (
     <>
       <div className={styles.contentBox}>
-        <div>
+        <div className={styles.titleImgFrame}>
           <div className={styles.itemTitle}>{content.title}</div>
-          <div className={styles.img}>{content.img}</div>
+          <div>{content.img}</div>
         </div>
-        <div className={styles.detail}>
+        <div className={styles.detailFrame}>
           <div className={styles.highlight}>Detail :</div>
           <div>{content.description}</div>
           <br />
           <div>
-            <button>
-              <a target="_blank" href={content.url}>
+            <button className={styles.linkBtn}>
+              <a className="linkItem" target="_blank" href={content.url}>
                 페이지 바로가기
               </a>
             </button>
-            <button>
-              <a target="_blank" href={content.blog}>
+            <button className={styles.linkBtn}>
+              <a className="linkItem" target="_blank" href={content.blog}>
                 블로그 게시글 보기
               </a>
             </button>
@@ -40,12 +40,7 @@ function DetailList() {
     {
       id: 1,
       title: "My Upcomming Challenges",
-      img: (
-        <img
-          src="https://Ryomi-j.github.io/Portfolio_Page/img/detail-imgs/challanges.jpg"
-          alt="challanges"
-        />
-      ),
+      img: <img src={require("./assets/challanges.jpg")} alt="challanges" className={styles.projectImg}/>,
       description: `
         Udemy 강의를 수강하며 HTML과 CSS를 사용해 하루 또는 일정 기간의 목표를 세우는 페이지를 구현했습니다. 
         단순히 클론코딩 하지 않고, 완성 이미지를 보고 스스로 구현해본 후 강의를 수강하며 수정 및 보완하는 방식으로 개발하였습니다.
@@ -55,13 +50,13 @@ function DetailList() {
       blog: "https://premubo.tistory.com/entry/HTMLCSS-My-Upcoming-Challenges",
       skills: [
         <img
-          className={styles.logos}
-          src="https://Ryomi-j.github.io/Portfolio_Page/img/skills/html.png"
+          className={styles.skillLogos}
+          src={require("./assets/html.png")}
           alt="html logo"
         />,
         <img
-          className={styles.logos}
-          src="https://Ryomi-j.github.io/Portfolio_Page/img/skills/css.png"
+          className={styles.skillLogos}
+          src={require("./assets/css.png")}
           alt="css logo"
         />,
       ],
@@ -69,12 +64,7 @@ function DetailList() {
     {
       id: 2,
       title: "Travel",
-      img: (
-        <img
-          src="https://Ryomi-j.github.io/Portfolio_Page/img/detail-imgs/travel.jpg"
-          alt="travel"
-        />
-      ),
+      img: <img src={require("./assets/travel.jpg")} alt="travel"  className={styles.projectImg}/>,
       description: `
         Udemy 강의를 수강하며 각 나라의 도시를 알아 볼 수 있는 페이지를 구현했습니다. 
         해당 페이지를 구현하며 position속성을 사용해 메인 페이지에 배경사진을 넣는 것을 연습을 했습니다.
@@ -85,13 +75,13 @@ function DetailList() {
       blog: "https://premubo.tistory.com/entry/HTMLCSSTravel",
       skills: [
         <img
-          className={styles.logos}
-          src="https://Ryomi-j.github.io/Portfolio_Page/img/skills/html.png"
+          className={styles.skillLogos}
+          src={require("./assets/html.png")}
           alt="html logo"
         />,
         <img
-          className={styles.logos}
-          src="https://Ryomi-j.github.io/Portfolio_Page/img/skills/css.png"
+          className={styles.skillLogos}
+          src={require("./assets/css.png")}
           alt="css logo"
         />,
       ],
@@ -99,12 +89,7 @@ function DetailList() {
     {
       id: 3,
       title: "Web Food",
-      img: (
-        <img
-          src="https://Ryomi-j.github.io/Portfolio_Page/img/detail-imgs/web-food.jpg"
-          alt="web_food"
-        />
-      ),
+      img: <img src={require("./assets/web-food.jpg")} alt="web_food"  className={styles.projectImg}/>,
       description: `
         Udemy 강의에서 반응형 웹을 학습하며 만든 페이지 입니다. 
         해당 페이지를 만들며 unit과 미디어쿼리를 이해할 수 있었고 적절히 사용하는 방법을 학습하였습니다.`,
@@ -112,13 +97,13 @@ function DetailList() {
       blog: "https://premubo.tistory.com/entry/HTMLCSS-Responsive-Web",
       skills: [
         <img
-          className={styles.logos}
-          src="https://Ryomi-j.github.io/Portfolio_Page/img/skills/html.png"
+          className={styles.skillLogos}
+          src={require("./assets/html.png")}
           alt="html logo"
         />,
         <img
-          className={styles.logos}
-          src="https://Ryomi-j.github.io/Portfolio_Page/img/skills/css.png"
+          className={styles.skillLogos}
+          src={require("./assets/css.png")}
           alt="css logo"
         />,
       ],
@@ -126,12 +111,7 @@ function DetailList() {
     {
       id: 4,
       title: "Tic, Tac, Toe",
-      img: (
-        <img
-          src="https://Ryomi-j.github.io/Portfolio_Page/img/detail-imgs/tic tac toe.jpg"
-          alt="tic tac to"
-        />
-      ),
+      img: <img src={require("./assets/tic tac toe.jpg")} alt="tic tac toe"  className={styles.projectImg}/>,
       description: `
         Udemy 강의를 수강하며 DOM 연습을 위해 구편한 페이지입니다. 
         자바스크립트와 DOM을 사용해 각 선수의 정보를 입력받아 게임을 진행할 수 있으며 승자를 가려내는 기능을 하는 페이지 입니다.
@@ -141,18 +121,18 @@ function DetailList() {
       blog: "https://premubo.tistory.com/entry/Practice-Tic-Tac-Toe",
       skills: [
         <img
-          className={styles.logos}
-          src="https://Ryomi-j.github.io/Portfolio_Page/img/skills/html.png"
+          className={styles.skillLogos}
+          src={require("./assets/html.png")}
           alt="html logo"
         />,
         <img
-          className={styles.logos}
-          src="https://Ryomi-j.github.io/Portfolio_Page/img/skills/css.png"
+          className={styles.skillLogos}
+          src={require("./assets/css.png")}
           alt="css logo"
         />,
         <img
-          className={styles.logos}
-          src="https://Ryomi-j.github.io/Portfolio_Page/img/skills/js.png"
+          className={styles.skillLogos}
+          src={require("./assets/js.png")}
           alt="Java Script logo"
         />,
       ],
@@ -160,9 +140,7 @@ function DetailList() {
     {
       id: 5,
       title: "Calculator",
-      img: (
-        <img src="https://Ryomi-j.github.io/Portfolio_Page/img/detail-imgs/calculator.jpg" />
-      ),
+      img: <img src={require("./assets/calculator.jpg")}  className={styles.projectImg}/>,
       description: `
         React 학습 후 만든 계산기 입니다. 
         아이폰 계산기를 모델로 삼아 만들었으며, 두 숫자를 계산할 수 있습니다. 
@@ -171,8 +149,8 @@ function DetailList() {
       blog: "https://premubo.tistory.com/entry/Practice-Caculator",
       skills: (
         <img
-          className={styles.logos}
-          src="https://Ryomi-j.github.io/Portfolio_Page/img/skills/react.png"
+          className={styles.skillLogos}
+          src={require("./assets/react.png")}
           alt="react logo"
         />
       ),
@@ -180,12 +158,7 @@ function DetailList() {
     {
       id: 6,
       title: "Movie App",
-      img: (
-        <img
-          src="https://Ryomi-j.github.io/Portfolio_Page/img/detail-imgs/movie.jpg"
-          alt="movie"
-        />
-      ),
+      img: <img src={require("./assets/movie.jpg")} alt="movie" className={styles.projectImg} />,
       description: `
         노마드 코더 강의를 통해 React의 큰 틀을 이해하며 만든 페이지입니다.
         해당 강의를 통해 fetch한 데이터를 관리 및 사용하고 렌더링하는 등의 
@@ -202,8 +175,8 @@ function DetailList() {
       blog: "https://premubo.tistory.com/entry/React-Movie-App",
       skills: (
         <img
-          className={styles.logos}
-          src="https://Ryomi-j.github.io/Portfolio_Page/img/skills/react.png"
+          className={styles.skillLogos}
+          src={require("./assets/react.png")}
           alt="react logo"
         />
       ),
@@ -211,12 +184,7 @@ function DetailList() {
     {
       id: 7,
       title: "Portfolio",
-      img: (
-        <img
-          src="https://Ryomi-j.github.io/Portfolio_Page/img/detail-imgs/portfolio.jpg"
-          alt="portfolio"
-        />
-      ),
+      img: <img src={require("./assets/portfolio.jpg")} alt="portfolio img"  className={styles.projectImg}/>,
       description: `
         React를 사용해 제작한 개인 포트폴리오 페이지입니다.
         Introduction 페이지에서 개인 정보와 사용 가능한 기술을 확인할 수 있고
@@ -226,8 +194,8 @@ function DetailList() {
       blog: "https://premubo.tistory.com/entry/React-Porfolio-page",
       skills: (
         <img
-          className={styles.logos}
-          src="https://Ryomi-j.github.io/Portfolio_Page/img/skills/react.png"
+          className={styles.skillLogos}
+          src={require("./assets/react.png")}
           alt="react logo"
         />
       ),

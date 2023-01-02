@@ -1,6 +1,6 @@
 import React from "react";
-import DetailList from "../components/Detail";
-import styles from "./History.module.css";
+import DetailList from "../../../../components/Details/Detail";
+import styles from "./styles.module.css";
 
 function History() {
   return (

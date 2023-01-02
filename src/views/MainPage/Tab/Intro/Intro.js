@@ -1,7 +1,7 @@
 import React, {Link} from "react";
-import styles from "./Home.module.css";
+import styles from "./styles.module.css";
 
-function Home() {
+function Intro() {
   const imgs = [
       <img
         id="0"
@@ -13,8 +13,8 @@ function Home() {
           marginLeft: "5px",
           borderRadius: "20px",
         }}
-        src="https://Ryomi-j.github.io/Portfolio_Page/img/home-imgs/calculator.jpg"
-        alt="calculator"
+        src={require("./assets/calculator.jpg")}
+        alt="calculator img"
       />,
     <img
       id="1"
@@ -26,8 +26,8 @@ function Home() {
         marginLeft: "3px",
         borderRadius: "15px",
       }}
-      src="https://Ryomi-j.github.io/Portfolio_Page/img/home-imgs/challanges.jpg"
-      alt="challanges"
+      src={require("./assets/challanges.jpg")}
+      alt="challanges img"
     />,
     <img
       id="2"
@@ -38,8 +38,8 @@ function Home() {
         display: "block",
         borderRadius: "10px",
       }}
-      src="https://Ryomi-j.github.io/Portfolio_Page/img/home-imgs/movie.jpg"
-      alt="movie"
+      src={require("./assets/movie.jpg")}
+      alt="movie img"
     />,
     <img
       id="3"
@@ -50,8 +50,8 @@ function Home() {
         display: "block",
         borderRadius: "5px",
       }}
-      src="https://Ryomi-j.github.io/Portfolio_Page/img/home-imgs/tic tac toe.jpg"
-      alt="tic tac to"
+      src={require("./assets/tic_tac_toe.jpg")}
+      alt="tic tac to img"
     />,
     <img
       id="4"
@@ -63,8 +63,8 @@ function Home() {
         // margin: "20px auto",
         borderRadius: "5px",
       }}
-      src="https://Ryomi-j.github.io/Portfolio_Page/img/home-imgs/travel.jpg"
-      alt="travel"
+      src={require("./assets/travel.jpg")}
+      alt="travel img"
     />,
     <img
       id="5"
@@ -76,8 +76,8 @@ function Home() {
         marginLeft: "5px",
         borderRadius: "15px",
       }}
-      src="https://Ryomi-j.github.io/Portfolio_Page/img/home-imgs/web-food.jpg"
-      alt="web_food"
+      src={require("./assets/web-food.jpg")}
+      alt="web_food img"
     />,
   ];
 
@@ -108,4 +108,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Intro;

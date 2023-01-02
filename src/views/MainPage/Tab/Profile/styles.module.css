@@ -18,45 +18,61 @@
   font-family: "Kanit";
 }
 
-.img {
-  margin: 0 auto;
+.profileImgFrame{
+  text-align: center;
+}
+
+.profileImgFrame img {
+  width: 400px;
 }
 
 .info {
   padding-top: 3em;
 }
 
-.headline {
+.itemTitle {
   font-weight: bold;
   font-size: 30px;
   margin-bottom: 20px;
   color: rgb(108, 104, 104);
 }
 
-.table {
-  text-align: left;
-  width: 40em;
-  height: 10em;
-  font-size: 20px;
-  font-family: "Kanit";
+.infoFrame {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: end;
+  justify-items: center;
+  margin-bottom: 50px;
+}
+.responsiveInfo {
+  display: none;
+
 }
 
 .icon {
   text-align: right;
-  padding-right: 20px;
 }
 
 .value {
   font-size: 15px;
 }
 
-a {
+.profileLink {
   color: inherit;
   text-decoration: none;
+  font-size: 30px;
 }
 
 a:hover {
   color: rgb(235, 55, 85);
+}
+
+.skillIcon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap ;
+  align-items: center;
 }
 
 .logos {
@@ -73,30 +89,32 @@ a:hover {
 @media (max-width: 1200px) {
   .home {
     height: max-content;
-    min-width: 550px;
+    text-align: center;
   }
 
   .content {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
 
-  .photo {
-    margin: 0 auto;
+  .profileImgFrame img {
+    width: 300px;
   }
 
-  .detail {
-    margin: 0 auto;
-  }
-
-  .headline {
+  .itemTitle {
     margin-left: 20px;
   }
 
-  .table {
-    text-align: center;
-    width: auto;
-    height: auto;
+  .infoFrame {
+    display: none;
+  }
+
+  .responsiveInfo {
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
   }
 
@@ -106,6 +124,6 @@ a:hover {
   }
 
   .skillIcon {
-    margin-left: 20px;
+    justify-content: space-around;
   }
 }

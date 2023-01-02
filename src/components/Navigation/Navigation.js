@@ -2,12 +2,18 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
-import styles from "./Nav.module.css";
+import styles from "./styles.module.css";
 import { Link } from "react-router-dom";
 
 function Navigation() {
+  const navItems = [
+    { title: "Home", direction: "/" },
+    { title: "Introduction", direction: "/Introduction" },
+    { title: "History", direction: "/History" },
+  ];
+
   return (
-    <Navbar expand="lg" className={styles.frame} >
+    <Navbar expand="lg" className={styles.frame}>
       <Container id="nav-box">
         <Nav.Link>
           <Link to="/" className={styles.title}>
@@ -17,21 +23,13 @@ function Navigation() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className={styles.items}>
           <Nav>
-            <Nav.Link>
-              <Link to="/" className={styles.a}>
-                Home
-              </Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link to="/Introduction" className={styles.a}>
-                Introduction
-              </Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link to="/History" className={styles.a}>
-                History
-              </Link>
-            </Nav.Link>
+            {navItems.map((item, index) => (
+              <Nav.Link key={index}>
+                <Link to={item.direction} className={styles.a}>
+                  {item.title}
+                </Link>
+              </Nav.Link>
+            ))}
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -13,13 +13,11 @@
 }
 
 .contents {
-  /* margin: 10px 150px; */
   padding-top: 3em;
-  /* border: 1px black; */
 }
 
 @media (max-width: 1200px) {
   .contents {
-    padding: 1em;
+    height: max-content;
   }
 }

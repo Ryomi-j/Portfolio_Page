@@ -1,27 +1,8 @@
 .contentBox {
   display: flex;
   margin: 0 auto;
-  padding-bottom: 60px;
+  padding-bottom: 100px;
   width: 1000px;
-}
-
-.highlight {
-  font-family: "Kanit";
-  font-size: 25px;
-  font-weight: bold;
-  color: rgb(78, 123, 162);
-}
-
-img {
-  width: 500px;
-  border-radius: 10px;
-  margin: 10px 20px 20px 0;
-}
-
-.detail {
-  margin: auto 10px auto 0;
-  font-family: "Dongle";
-  font-size: 30px;
 }
 
 .itemTitle {
@@ -31,14 +12,34 @@ img {
   color: rgb(47, 88, 177);
 }
 
-.logos {
+.detailFrame {
+  margin: auto 10px auto 0;
+  font-family: "Dongle";
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+
+.highlight {
+  font-family: "Kanit";
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(78, 123, 162);
+}
+
+.projectImg {
+  width: 500px;
+  border-radius: 10px;
+  margin: 10px 20px 20px 0;
+}
+
+.skillLogos {
   width: 70px;
   margin-right: 10px;
   transition: all 0.2s linear;
   border-radius: 5px;
 }
 
-.logos:hover {
+.skillLogos:hover {
   transform: scale(1.1);
 }
 
@@ -53,7 +54,7 @@ button {
   padding: 5px 5px 0 5px;
 }
 
-button:hover {
+.linkBtn:hover {
   background-color: pink;
   border: pink;
 }
@@ -62,9 +63,10 @@ a {
   font-family: "Dongle";
   font-size: 20px;
   font-weight: bold;
+  text-decoration: none;
 }
 
-a:hover {
+.a:hover {
   color: rgb(47, 74, 226);
   
 }
@@ -73,17 +75,22 @@ a:hover {
   .contentBox {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    flex-wrap: wrap;
+    width: 100%;
     align-items: center;
     justify-content: center;
   }
 
-  img {
-    width: 450px;
+  .projectImg {
+    width: 100%;
     border-radius: 10px;
+    margin: 0 auto;
+
   }
 
-  .detail {
-    padding: 10px;
+  .detailFrame, .titleImgFrame {
+    width: 80%;
+    font-size: 25px;
+    margin-bottom: 30px;
   }
 }

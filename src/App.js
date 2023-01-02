@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Navigation from "./components/Navigation";
-import Home from "./routes/Home";
-import Introduction from "./routes/Introduction";
-import History from "./routes/History";
+import Navigation from "./components/Navigation/Navigation";
+import History from "./views/MainPage/Tab/History/History";
+import Introduction from "./views/MainPage/Tab/Profile/Introduce";
+import Intro from "./views/MainPage/Tab/Intro/Intro";
 import style from './App.css'
 
 function App() {
@@ -12,8 +12,8 @@ function App() {
         <div className={style.App} style={{backgroundColor:"rgb(254, 247, 237)"}}>
         <Navigation />
         <Routes>
-          <Route path={"/"} element={<Home />}></Route>
-          <Route path={"/Portfolio_Page"} element={<Home />}></Route>
+          <Route path={"/"} element={<Intro />}></Route>
+          <Route path={"/Portfolio_Page"} element={<Intro />}></Route>
           <Route path="/Introduction" element={<Introduction />}></Route>
           <Route path="/History" element={<History />}></Route>
         </Routes>
