@@ -40,9 +40,8 @@
 .infoFrame {
   width: 70%;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  align-items: end;
-  justify-items: end;
+  grid-template-columns: 1fr 3fr 1fr 3fr 1fr 3fr;
+  align-items: center;
   margin-bottom: 50px;
 }
 

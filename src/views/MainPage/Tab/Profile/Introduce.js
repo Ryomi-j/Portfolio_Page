@@ -71,7 +71,7 @@ function Introduction() {
                 <a
                   className={styles.profileLink}
                   href="https://premubo.tistory.com/"
-                  style={{marginLeft:"-90px"}}>
+                 style={{marginLeft:"10px"}}>
                   Blog
                 </a>
               </p>
