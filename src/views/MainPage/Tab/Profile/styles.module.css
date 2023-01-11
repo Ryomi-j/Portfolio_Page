@@ -42,9 +42,10 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   align-items: end;
-  justify-items: center;
+  justify-items: end;
   margin-bottom: 50px;
 }
+
 .responsiveInfo {
   display: none;
 
@@ -115,7 +116,18 @@ a:hover {
     display: block;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: baseline;
     margin: 0 auto;
+    font-size: 20px;
+  }
+
+  .responsiveInfo p {
+    margin: 10px auto;
+  }
+
+  .responsiveInfo a {
+    font-size: 30px;
+
   }
 
   .icon {
@@ -123,6 +135,9 @@ a:hover {
     padding-right: 0;
   }
 
+  .skillwrap {
+    margin-bottom: 30px;
+  }
   .skillIcon {
     justify-content: space-around;
   }
